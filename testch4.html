@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="extjs/resources/css/ext-all.css" rel="stylesheet" type="text/css"/>
+<script src="extjs/ext-all.js" type="text/javascript"></script>
+</head>
+
+<body>
+<h3>[this si the abc]</h3>
+<ol>
+  <li>afjaslk</li>
+  <li>alfjaj</li>
+  <li></li>
+</ol>
+
+<script>
+	Ext.create("Ext.Component", {
+		html:"Raw Component",
+		renderTo: Ext.getBody(),
+		autoEl: {
+			html: "",
+			href: "http://www.google.com",
+			tag: "a",
+			target:"_new"
+		}
+	});
+	
+	Ext.define("TestController",{
+		extend: "Ext.app.Controller",
+		models:[],
+		stores:[],
+		views:[],
+		init: function() {}
+	});
+	
+	
+</script>
+</body>
+</html>
