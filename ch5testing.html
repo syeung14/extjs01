@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajax proxy</title>
+<link href="extjs/resources/css/ext-all.css" rel="stylesheet" type="text/css"/>
+<script src="extjs/ext-all.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<script>
+Ext.define("Country", {
+	extend : "Ext.data.Model",
+	fields : ["name","capital"]
+});
+
+var ajaxProxy = Ext.create("Ext.data.proxy.Ajax", {
+	url: "countries.txt",
+	model: "Country",
+	reader: {
+		type: "json",
+		root: "countriesInEurope"
+	}
+});
+
+
+
+</script>
+
+Hello workds"
+<hr>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"countriesInEurope": [{
+		"name": "Spain",
+		"capital": "Madrid"
+	}, {
+		"name": "France",
+		"capital": "Paris"
+	}, {
+		"name": "UK",
+		"capital": "London"
+	}, {
+		"name": "Denmark",
+		"capital": "Copenhagen"
+	}]
+}
