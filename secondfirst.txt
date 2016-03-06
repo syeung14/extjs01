@@ -6,3 +6,7 @@ ______________________________________
 
 
 in remote branching.............
+
+
+
+new text in new_feature
