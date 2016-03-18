@@ -1,5 +1,6 @@
 change in commit one
 change in commit two 
+change in commit three
 
 
 this is soemthing are meaningful
