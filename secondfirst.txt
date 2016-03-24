@@ -8,7 +8,6 @@ ______________________________________
 in remote branching.............
 
 
-______________
 
 new text in new_feature
 
