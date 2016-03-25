@@ -19,3 +19,5 @@ in detached mode:
 this is another branch
 
 this is another another line
+
+onel ine from the waddetached
